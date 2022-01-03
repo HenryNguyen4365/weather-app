@@ -1,0 +1,52 @@
+.container {
+    background-color: #222831;
+    height: 400px;
+    color: #fff;
+    border-radius: 25px;
+}
+.weather-container {
+    background-image: linear-gradient(45deg, #7cadf6, rgb(253, 155, 155));
+    border-radius: 25px;
+    height: 100%;
+    width: 300px;
+    position: relative;
+}
+
+.location {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 20px;
+    top: 30%;
+}
+
+#country {
+    width: 200px;
+}
+
+.information {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    p {
+        font-size: 30px;
+    }
+}
+
+.select {
+    border: none;
+    background-color: #fff;
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.select:hover {
+    color: #fff;
+    background-color: #222831;
+}
